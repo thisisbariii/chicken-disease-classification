@@ -1,8 +1,10 @@
-tensorflow
+tensorflow==2.15.1
+numpy==1.26.4
+keras==2.15.0
+
 pandas
 dvc
 notebook
-numpy
 matplotlib
 seaborn
 python-box==6.0.2
@@ -14,4 +16,5 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+
 -e .
