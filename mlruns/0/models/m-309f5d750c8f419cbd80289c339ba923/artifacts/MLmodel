@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/badsh/OneDrive/Desktop/chicken-disease-classification/mlruns/0/models/m-309f5d750c8f419cbd80289c339ba923/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.22
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.15.1
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.17.0
+model_id: m-309f5d750c8f419cbd80289c339ba923
+model_size_bytes: 59602201
+model_uuid: m-309f5d750c8f419cbd80289c339ba923
+prompts: null
+run_id: 3623570be43c499ab8b20cccff4b7930
+utc_time_created: '2026-10-12 09:11:21.432199'

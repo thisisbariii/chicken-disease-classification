@@ -49,8 +49,8 @@ class Training:
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
     def train(self, callback_list: list):
-        self.steps_per_epoch = self.train_generator.samples
-        self.validation_steps = self.valid_generator.samples
+        self.steps_per_epoch = len(self.train_generator)
+        self.validation_steps = len(self.valid_generator)
         self.model.fit(
             self.train_generator,
             epochs = self.config.params_epochs,
